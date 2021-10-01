@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1631997925 source:d:\narciso\onedrive\documentos\mariodos\fontes\inicializar.c
+	"..\headers_particulares\includes_list.h"
+
+1632246542 d:\narciso\onedrive\documentos\mariodos\headers_particulares\includes_list.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+	<time.h>
+	"raylib.h"
+	"definitions.h"
+	"structs.h"
+	"inicializar.h"
+	"menu_logica.h"
+	"uteis.h"
+	"booleanas.h"
+	"logica_jogo.h"
+	"menu_desenho.h"
+	"desenha_jogo.h"
+
+1632485082 d:\narciso\onedrive\documentos\mariodos\headers_particulares\definitions.h
+	"includes_list.h"
+
+1632399742 d:\narciso\onedrive\documentos\mariodos\headers_particulares\structs.h
+	"includes_list.h"
+
+1632099258 d:\narciso\onedrive\documentos\mariodos\headers_particulares\inicializar.h
+	"includes_list.h"
+
+1632017911 d:\narciso\onedrive\documentos\mariodos\headers_particulares\menu_logica.h
+	"includes_list.h"
+
+1632398159 source:d:\narciso\onedrive\documentos\mariodos\main.c
+	"headers_particulares/includes_list.h"
+
+1632483146 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\menu_logica.c
+	"..\headers_particulares\menu_logica.h"
+
+1632399760 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\inicializar.c
+	"..\headers_particulares\inicializar.h"
+
+1632070915 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\menu_desenho.c
+	"../headers_particulares/menu_desenho.h"
+
+1632067364 d:\narciso\onedrive\documentos\mariodos\headers_particulares\menu_desenho.h
+	"includes_list.h"
+
+1632278355 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\uteis.c
+	"../headers_particulares/uteis.h"
+
+1632278355 d:\narciso\onedrive\documentos\mariodos\headers_particulares\uteis.h
+	"includes_list.h"
+
+1632193111 d:\narciso\onedrive\documentos\mariodos\headers_particulares\logica_jogo.h
+	"includes_list.h"
+
+1632399318 d:\narciso\onedrive\documentos\mariodos\headers_particulares\desenha_jogo.h
+	"includes_list.h"
+
+1632399776 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\logica_jogo.c
+	"../headers_particulares/logica_jogo.h"
+
+1632490453 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\desenha_jogo.c
+	"../headers_particulares/desenha_jogo.h"
+
+1632022578 source:d:\narciso\onedrive\documentos\mariodos\arquivos_fontes\booleanas.c
+	"../headers_particulares/booleanas.h"
+
+1632022241 d:\narciso\onedrive\documentos\mariodos\headers_particulares\booleanas.h
+	"includes_list.h"
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MarioDOS" />
+		<Option pch_mode="2" />
+		<Option compiler="raylib_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MarioDOS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="raylib_compiler" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MarioDOS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="raylib_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="arquivos_fontes/booleanas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/desenha_jogo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/inicializar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/logica_jogo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/menu_desenho.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/menu_logica.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arquivos_fontes/uteis.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="headers_particulares/booleanas.h" />
+		<Unit filename="headers_particulares/definitions.h" />
+		<Unit filename="headers_particulares/desenha_jogo.h" />
+		<Unit filename="headers_particulares/includes_list.h" />
+		<Unit filename="headers_particulares/inicializar.h" />
+		<Unit filename="headers_particulares/logica_jogo.h" />
+		<Unit filename="headers_particulares/menu_desenho.h" />
+		<Unit filename="headers_particulares/menu_logica.h" />
+		<Unit filename="headers_particulares/structs.h" />
+		<Unit filename="headers_particulares/uteis.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
